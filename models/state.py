@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" State class """
+""" State classe """
 
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ class """
+    """ classe """
     name = ""
