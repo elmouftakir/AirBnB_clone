@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" Class Review """
+""" Classe Review """
 
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ class attributes """
+    """ classe attributes """
     place_id = ""
     user_id = ""
     text = ""
