@@ -3,7 +3,6 @@
 
 from models.base_model import BaseModel
 
-
 class User(BaseModel):
     """ class attributes of User"""
     email = ""
