@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """ AirBnB Console project1 """
+=======
+""" AirBnB Console project """
+>>>>>>> 64151464dff7917d410f7d25e2d2c4a9ec52fb80
 
 import cmd
 from models import storage
