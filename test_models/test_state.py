@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Unit tests for State class """
+""" Unit tests for State classe """
 
 import unittest
 from models.state import State
@@ -7,7 +7,7 @@ import pep8
 
 
 class Test_State(unittest.TestCase):
-    """Base class tests"""
+    """Base classe tests"""
 
     def test_pep8_conformance_state(self):
         """Test that we conform to PEP8."""

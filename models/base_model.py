@@ -24,6 +24,8 @@ class BaseModel:
                 if key == "created_at":
                     self.created_at = datetime.strptime(value, form)
                     continue
+<<<<<<< HEAD
+=======
                 if key == "updated_at":
                     self.updated_at = datetime.strptime(value, form)
                     continue
@@ -55,3 +57,4 @@ class BaseModel:
         dictnew['updated_at'] = self.updated_at.strftime(formato)
         dictnew['id'] = self.id
         return dictnew
+>>>>>>> 64151464dff7917d410f7d25e2d2c4a9ec52fb80
